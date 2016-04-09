@@ -28,6 +28,8 @@ template: "simple"
 #       end_tag:   '%>'
 
 plugins:
+  Redis:
+    server: "p5-smokee-redis:6379"
   Database:
     driver: mysql
     host: p5-smokee-db
